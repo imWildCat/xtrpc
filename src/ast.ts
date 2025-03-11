@@ -29,5 +29,5 @@ export const getFirstSiblingByKindOrThrow = (
       return sibling;
     }
   }
-  throw new Error(`A sibling of kind ${kind.toString()} was expected. Node text: ${node.getText()}`);
+  throw new Error(`A sibling of kind ${kind.toString()} was expected. Node text: ${node.getText()} parent text: ${node.getParent()?.getText()}`);
 };
