@@ -1,6 +1,6 @@
 {
   "name": "@imwildcat/xtrpc",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Export your tRPC router to massively improve language server performance and/or let your users consume your API from a typed SDK",
   "author": "Algora PBC. <info@algora.io> (https://algora.io)",
   "maintainers": [
@@ -44,7 +44,7 @@
     "pub:release": "pnpm build && npm publish --access public"
   },
   "dependencies": {
-    "ts-morph": "^19.0.0",
+    "ts-morph": "^25.0.1",
     "zod": "^3.21.4"
   },
   "devDependencies": {
