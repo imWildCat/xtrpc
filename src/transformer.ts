@@ -21,6 +21,9 @@ export const redefine =
       node,
       ts.SyntaxKind.SyntaxList,
     );
+    if (!sibling) {
+      return [];
+    }
     return [() => sibling.replaceWithText(text)];
   };
 
