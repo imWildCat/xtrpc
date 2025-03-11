@@ -4,12 +4,13 @@
   "description": "Export your tRPC router to massively improve language server performance and/or let your users consume your API from a typed SDK",
   "author": "Algora PBC. <info@algora.io> (https://algora.io)",
   "maintainers": [
-    "Zafer Cesur <zafer@algora.io>"
+    "Zafer Cesur <zafer@algora.io>",
+    "Mike Chong <mike.chong@rockiestar.com"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/algora-io/xtrpc.git"
+    "url": "https://github.com/imwildcat/xtrpc.git"
   },
   "files": [
     "dist/**/*",
